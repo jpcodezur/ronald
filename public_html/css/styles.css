@@ -1,0 +1,212 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body { font: bold 18px/1.5 sans-serif; color: #333; }
+
+#sort {
+    display: block;
+    width: 115px;
+    margin: 40px auto 0;
+    padding: 7px 12px;           
+    background: #356B8F;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.4);
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+}
+
+.box {
+    /*width: 76px;
+    min-height: 80px;
+    background: #bada55;
+    margin: 10px 0 0 10px;
+    padding: 12px;*/
+}
+
+/*
+* ISOTOPE CSS TRANSITIONS
+*/
+.isotope,
+.isotope .isotope-item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -o-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property:    -moz-transform, opacity;
+    -o-transition-property:         top, left, opacity;
+    -ms-transition-property:         top, left, opacity;
+    transition-property:         transform, opacity;
+
+}
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    -ms-transition-duration: 0s;
+    transition-duration: 0s;
+}
+
+#filters{
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+}
+
+div.phones img{
+    /*width:100px;*/
+}
+
+div.fitness img,div.cars img{
+    /*width:200px;*/
+}
+#wrap {
+    /* either of these will work for horizontal Isotope layouts */
+    height: 80%;
+    height: 480px;
+    min-height: 300px;
+    width: 1252px;
+    margin: 40px auto 0;
+    /*padding-bottom: 10px;*/
+    border: thin solid #ddd;
+    background: #eee;
+}
+.box-500-500{
+    height: 500px;
+    width: 500px;
+}
+.box-500-250{
+    height: 250px;
+    width: 500px;
+}
+.box-250-250{
+    height: 250px;
+    width: 250px;
+}
+/*
+#wrap .phones{
+    
+}
+#wrap .fitness{
+    opacity: 0.7 !important;
+}
+#wrap .cars{
+    opacity: 0.3 !important;
+}*/
+.background-fixed{
+    background-attachment: fixed;
+    background-image: url(http://www.gool.com.uy/image/data/logogool.png),url("https://gool.com.uy/image/data/bg_gool.jpg");
+    background-position: 100px 200px,0 0;
+    background-repeat: no-repeat;
+    height: 436px;
+}
+.currency{
+    float:left;
+}
+.currency-label{
+    background: none repeat scroll 0 0 #ee7123;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+}
+/* CSS3 STYLE GENERIC */
+.view {
+   /*width: 300px;
+   height: 200px;
+   border: 5px solid #fff;
+   margin: 10px;*/
+   float: left;
+   
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   box-shadow: 0px 0px 5px #aaa;
+   cursor: default;
+}
+.view .mask, .view .content {
+   /*width: 300px;
+   height: 200px;*/
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.view img {
+   display: block;
+   position: relative;
+}
+.view a.info {
+   background:url(../img/link.png) center no-repeat;
+   display: inline-block;
+   text-decoration: none;
+   padding:0;
+   text-indent:-9999px;
+   width:20px;
+   height:20px;
+}
+.mask{
+    height: 100%;
+    width: 100%;
+}
+.mask-500-500 {
+    /*border: 200px solid rgba(0, 0, 0, 0.7) !important;*/
+    background:none repeat scroll 0 0 rgba(0, 0, 0, 0.7) !important;
+    min-height: 500px;
+}
+.mask-500-250{
+    /*border: 125px solid rgba(0, 0, 0, 0.7) !important;*/
+    background:none repeat scroll 0 0 rgba(0, 0, 0, 0.7) !important;
+    width: 500px !important;
+}
+.mask-250-250{
+    /*border: 125px solid rgba(0, 0, 0, 0.7) !important;*/
+    background:none repeat scroll 0 0 rgba(0, 0, 0, 0.7) !important;
+}
+.detalle-producto-puzzle {
+    font-size: 14px;
+    font-weight: 100;
+    margin: 30% auto 0;
+    opacity: 0.7;
+    text-align: center;
+    width: 50%;
+}
+.detalle-producto-puzzle p{
+    color:#ee7123;
+}
+.mask-500-250 .detalle-producto-puzzle {
+    margin: 16% auto 0;
+}
+.mask-250-250 .detalle-producto-puzzle {
+    margin: 16% auto 0;
+}
+.detalle-producto-puzzle a {
+    background: none repeat scroll 0 0 #dddddd;
+    border-radius: 3px;
+    bottom: 0;
+    color: #ee7123;
+    width: 50%;
+    margin:0 auto;
+    height: 31px;
+    left: 0;
+    padding: 10px;
+    right: 0;
+    top: 130px;
+    z-index: 0;
+    line-height: 29px;
+    font-weight: bold;
+}

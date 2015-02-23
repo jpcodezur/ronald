@@ -1,0 +1,87 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body { font: bold 18px/1.5 sans-serif; color: #333; }
+
+#sort {
+    display: block;
+    width: 115px;
+    margin: 40px auto 0;
+    padding: 7px 12px;           
+    background: #356B8F;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.4);
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+}
+
+#wrap {
+    width: 650px;
+    margin: 40px auto 0;
+    padding-bottom: 10px;
+    border: thin solid #ddd;
+    background: #eee;
+}
+
+.box {
+    /*width: 76px;
+    min-height: 80px;
+    background: #bada55;
+    margin: 10px 0 0 10px;
+    padding: 12px;*/
+}
+
+/*
+* ISOTOPE CSS TRANSITIONS
+*/
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+       -ms-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+       -o-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+       -o-transition-property:         top, left, opacity;
+       -ms-transition-property:         top, left, opacity;
+          transition-property:         transform, opacity;
+}
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+       -o-transition-duration: 0s;
+       -ms-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+#filters{
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+}
+
+#wrap{
+    min-height: 300px;
+}
+div.phones img{
+	width:100px;
+}
+
+div.fitness img,div.cars img{
+	width:200px;
+}

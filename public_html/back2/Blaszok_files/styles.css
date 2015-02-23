@@ -1,0 +1,7 @@
+.background-fixed{
+    background-attachment: fixed;
+    background-image: url(http://www.gool.com.uy/image/data/logogool.png),url("https://gool.com.uy/image/data/bg_gool.jpg");
+    background-position: 100px 200px,0 0;
+    background-repeat: no-repeat;
+    height: 436px;
+}
