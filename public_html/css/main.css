@@ -78,7 +78,7 @@ a:hover {
 
 /* Menu */
 .mpc-menu {
-	float: right;
+	float: left;
 }
 .mpc-menu-item {
 	position: relative;
@@ -200,7 +200,7 @@ a:hover {
 }
 
 /* Filters */
-.mpc-filters {
+/*.mpc-filters {
 	margin: 2.5rem 0 1.5rem;
 	padding: 0 1rem;
 	text-align: center;
@@ -216,7 +216,6 @@ a:hover {
 	left: 0;
 	bottom: 0;
 	right: 0;
-	background: #dddddd;
 	border-radius: 3px;
 	z-index: 0;
 }
@@ -224,15 +223,10 @@ a:hover {
 	content: '';
 	position: absolute;
 	top: 0;
-	left: 0;
 	bottom: 0;
 	width: 0;
-	background: #ee7123;
 	border-radius: 3px;
 	z-index: 1;
-
-	-webkit-transition: all .25s;
-			transition: all .25s;
 }
 .mpc-filter span {
 	position: relative;
@@ -246,19 +240,36 @@ a:hover {
 	margin: 0 .25rem 1rem;
 	padding: .6rem 1rem;
 	border-radius: 3px;
-	/*background: #dddddd;*/
-	color: #ffffff;
+	/*background: #dddddd;*//*
+	color: #000000;
+    font: 96.875%/1.65 "Open Sans",arial,sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
 }
 .mpc-filter:hover,
 .mpc-filter.mpc-active {
-	color: #ffffff;
-	/*background: #ee7123;*/
+	color: #000000;
+	/*background: #ee7123;*//*
 }
 .mpc-filter:hover:after,
 .mpc-filter.mpc-active:after {
-	width: 100%;
-}
-
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #1b7943 transparent transparent;
+    border-image: none;
+    border-right: 5px solid transparent;
+    border-style: solid;
+    border-width: 5px;
+    content: "";
+    position: absolute;
+    right: 5px;
+    top: 40%;
+}*/
 /* Grid */
 .mpc-grid {
 	/*text-align: center;*/
@@ -393,7 +404,7 @@ a:hover {
 	content: '';
 	position: absolute;
 	bottom: 0;
-	border: 2.5rem solid #f7f7f7;
+	/*border: 2.5rem solid #f7f7f7;*/
 	width: 50%;
 }
 .mpc-preview:before {
@@ -484,4 +495,69 @@ a:hover {
 }
 .clearfix {
 	*zoom: 1;
+}
+.background-fixed .items{
+    height: 38px;
+    left: 77.5%;
+    position: absolute;
+    top: 58.5%;
+    background: url("../img/icon-basket-white.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+    background-color: #ee7123;
+    cursor: pointer;
+    text-align: center;
+}
+.background-fixed .items a{
+    color: #888;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 42px;
+    text-decoration: none;
+}
+.background-fixed .items a span {
+    background-color: #eee;
+    display: inline-block;
+    padding: 8px 15px 9px;
+    line-height: 19px;
+    height: 38px;
+}
+.background-fixed .texto{
+    height: 38px;
+    left: 30%;
+    position: absolute;
+    top: 58.5%;
+    text-align: center;
+}
+.background-fixed .texto p{
+    margin:0;
+    font-weight: bold;
+    font-size: 13px;
+    color: #858585;
+}
+.background-fixed .texto p strong{
+    color:#ee7123;
+    cursor: pointer;
+}
+.background-fixed .buscar {
+    left: 55%;
+    position: absolute;
+    top: 58%;
+    width: 17%;
+}
+.background-fixed .buscar input[type=image]{
+    float:left;
+}
+.background-fixed .buscar input[type=text]{
+    /**/
+    float:left;
+    background-color: #eee;
+    border: medium none;
+    height: 40px;
+    margin: 0;
+    outline: medium none;
+    padding: 3%;
+    text-indent: 0;
+    border-radius: 0;
+    color: #777;
+    box-shadow: none !important;
 }

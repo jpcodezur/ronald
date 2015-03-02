@@ -1,0 +1,184 @@
+#bottom {
+    background-color: #eeeeee !important;
+}
+#bottom {
+    background-color: #eee;
+    border-bottom: 1px solid #333;
+    font-size: 13px;
+	font-family: "Open Sans";
+    padding: 10px 0;
+}
+#bottom {
+    margin-top: 20px;
+    border-top: 1px solid #e87c46;
+}
+#bottom .clearafter:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+#bottom .wrapper {
+    margin: 0 auto;
+    width: 1160px;
+}
+#bottom .grid-4 {
+    float: left;
+    margin: 0 1.5%;
+    width: 21.975%;
+}
+#shop-contact {
+    color: #222222;
+}
+#bottom h3 {
+    border-bottom: 1px solid #ee7123;
+    color: #555;
+    padding: 45px 0 25px;
+    font-size: 22px;
+}
+#bottom p, #bottom ul{
+    margin: 12px 0 15px;
+    padding: 0;
+}
+
+
+#bottom #shop-info ul li:first-child {
+    border: medium none;
+    margin: 0;
+    padding: 12px 0 12px 35px;
+}
+#shop-info ul li a {
+    color: #222;
+}
+#bottom a {
+    cursor: pointer;
+    outline: medium none;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#shop-info ul {
+    list-style-type: none;
+    margin-top: 0;
+}
+
+#shop-info ul li:first-child {
+    border: medium none;
+}
+#shop-info ul li {
+    border-top: 1px solid #dddddd;
+    margin: 0;
+    padding: 12px 0 12px 35px;
+}
+
+#shop-contact {
+    color: #222222;
+}
+#shop-contact ul {
+    list-style-type: none;
+    margin-top: 0;
+}
+p, pre, blockquote, form, dl, ul, ol, fieldset, address {
+    margin: 12px 0 15px;
+    padding: 0;
+}
+
+#shop-contact ul li:first-child {
+    border: medium none;
+}
+#shop-contact ul li.contact-phone {
+    background: url("../image/icons/icon-phone-grey.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+}
+#shop-contact ul li {
+    border-top: 1px solid #ddd;
+    margin: 0;
+    padding: 12px 0 12px 35px;
+}
+.contenedor_metodo_pago img {
+    display: inline-block;
+    max-height: 42px;
+    max-width: 92px;
+    padding: 7px 3px;
+}
+
+.contenedor_metodo_envio img {
+    display: inline-block;
+    height: 44px;
+    max-width: 93px;
+    padding: 8px 2px;
+}
+.contenedor_metodo_pago strong, .contenedor_metodo_envio strong {
+    color: #555555;
+}
+#bottom .grid-2 {
+    float: left;
+    margin: 0 1.5%;
+    width: 46.95%;
+}
+#shop-contact ul li.contact-phone {
+    background: url("../img/icon-phone-grey.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+}
+
+#shop-contact ul li.contact-email {
+    background: url("../img/icon-email-grey.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+}
+
+#shop-contact ul li.contact-skype {
+    background: url("../img/icon-skype-grey.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+}
+#powered {
+    background-color: #fff;
+    font-size: 13px;
+    padding: 20px 0 10px;
+}
+#powered {
+    max-height: 50px !important;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 1160px;
+}
+
+#rsb_newsletter {
+    float: left;
+}
+
+#rsb_newsletter form {
+    margin: -7px 0 0;
+    padding: 5px 0 8px;
+}
+
+#rsb_newsletter input {
+    display: inline-block;
+    float: left;
+}
+#subscribe_email {
+    margin-top: 0;
+}
+.color-orange .button {
+    background-color: #ee7123;
+}
+#powered .button {
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 20px;
+    text-indent: 0;
+    background-color: #ee7123;
+    transition: all 0.3s ease-in-out 0s;
+}
+#powered input, #powered select, #powered textarea {
+    background-color: #eee;
+    border: medium none;
+    border-radius: 0;
+    color: #777;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    max-width: 100%;
+    padding: 7px 0;
+    text-indent: 10px;
+}

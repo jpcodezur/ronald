@@ -3,11 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/ronald-site-remote/public_html/js/jquery.infinitescroll.js</file>
-            <file>file:/C:/xampp/htdocs/ronald-site-remote/module/Application/src/Application/Controller/IndexController.php</file>
-            <file>file:/C:/xampp/htdocs/ronald-site-remote/public_html/js/scripts.js</file>
-            <file>file:/C:/xampp/htdocs/ronald-site-remote/public_html/css/styles.css</file>
-            <file>file:/C:/xampp/htdocs/ronald-site-remote/module/Application/view/application/index/index.phtml</file>
+            <file>file:/C:/xampp/htdocs/ronald-site-remote/config/application.config.php</file>
+            <file>file:/C:/xampp/htdocs/ronald-site-remote/module/Admin/Module.php</file>
+            <file>file:/C:/xampp/htdocs/ronald-site-remote/module/Admin/view/admin/login/index.phtml</file>
+            <file>file:/C:/xampp/htdocs/ronald-site-remote/module/Admin/view/admin/layout/layout.phtml</file>
+            <file>file:/C:/xampp/htdocs/ronald-site-remote/module/Admin/config/module.config.php</file>
         </group>
     </open-files>
 </project-private>

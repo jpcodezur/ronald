@@ -81,7 +81,7 @@ div.fitness img,div.cars img{
     height: 480px;
     min-height: 300px;
     width: 1252px;
-    margin: 40px auto 0;
+    margin: 0px auto 0;
     /*padding-bottom: 10px;*/
     border: thin solid #ddd;
     background: #eee;
@@ -111,12 +111,12 @@ div.fitness img,div.cars img{
 .background-fixed{
     background-attachment: fixed;
     background-image: url(http://www.gool.com.uy/image/data/logogool.png),url("https://gool.com.uy/image/data/bg_gool.jpg");
-    background-position: 100px 200px,0 0;
+    background-position: 100px 130px,-405px -168px;
     background-repeat: no-repeat;
-    height: 436px;
+    height: 250px;
 }
 .currency{
-    float:left;
+    float:right;
 }
 .currency-label{
     background: none repeat scroll 0 0 #ee7123;
@@ -183,7 +183,7 @@ div.fitness img,div.cars img{
     margin: 30% auto 0;
     opacity: 0.7;
     text-align: center;
-    width: 50%;
+    width: 100%;
 }
 .detalle-producto-puzzle p{
     color:#ee7123;
@@ -209,4 +209,67 @@ div.fitness img,div.cars img{
     z-index: 0;
     line-height: 29px;
     font-weight: bold;
+}
+#mpc_favoritos {
+    background-image: url("../img/icon-wishlist.png");
+    background-position: 0 42px;
+    background-repeat: no-repeat;
+    padding: 0 1rem 0 20px;
+}
+#mpc_su_cuenta {
+    background-image: url("../img/icon-user.png");
+    background-position: 0 42px;
+    background-repeat: no-repeat;
+    padding: 0 1rem 0 20px;
+}
+#mpc_su_cesta {
+    background-image: url("../img/icon-cart.png");
+    background-position: 0 42px;
+    background-repeat: no-repeat;
+    padding: 0 1rem 0 20px;
+}
+#mpc_pagar {
+    background-image: url("../img/icon-checkout.png");
+    background-position: 0 42px;
+    background-repeat: no-repeat;
+    padding: 0 1rem 0 20px;
+}
+.mpc-menu-item-logo{
+    float: left;
+    margin-top: 24px;
+}
+.mpc-menu-item-logo img  {
+    float: left;
+    margin-top: 1px;
+    position: relative;
+    width: 114px;
+}
+.btn-comprar-puzzle {
+    background-color: #ee7123 !important;
+    background-image: url("../img/icon-basket-white.png") !important;
+    background-position: 0 -6px !important;
+    background-repeat: no-repeat !important;
+    color: #fff !important;
+    float: left;
+    line-height: 12px !important;
+    margin-right: 10px !important;
+    padding-left: 45px !important;
+    width: 115px !important;
+}
+.btn-add-wish-puzzle {
+    background-color: #ee7123 !important;
+    background-image: url("../img/icon-wishlist-white.png") !important;
+    background-position: 8px 7px !important;
+    background-repeat: no-repeat !important;
+    color: #fff !important;
+    float: left;
+    padding: 5px !important;
+    width: 35px !important;
+}
+.btns-acciones-puzzle {
+    margin: 0 auto;
+    width: 160px;
+}
+.detalle-producto-puzzle h3{
+    color: #ee7123;
 }
